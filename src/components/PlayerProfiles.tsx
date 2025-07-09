@@ -12,6 +12,7 @@ const players = [
     nationality: "Spain",
     currentClub: "Manchester City",
     transferValue: "£65M",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=600&fit=crop&crop=face",
     stats: {
       goals: 25,
       assists: 8,
@@ -29,6 +30,7 @@ const players = [
     nationality: "England",
     currentClub: "Crystal Palace",
     transferValue: "£55M",
+    imageUrl: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=600&fit=crop&crop=face",
     stats: {
       goals: 18,
       assists: 12,
@@ -46,6 +48,7 @@ const players = [
     nationality: "Sweden",
     currentClub: "Sporting CP",
     transferValue: "£60M",
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=600&fit=crop&crop=face",
     stats: {
       goals: 29,
       assists: 7,
@@ -80,8 +83,13 @@ const PlayerProfiles = () => {
           {players.map((player, index) => (
             <Card key={player.name} className="group hover:shadow-2xl transition-all duration-500 border-0 bg-white overflow-hidden">
               <CardHeader className="relative p-0">
-                {/* Player Image Placeholder */}
+                {/* Player Image */}
                 <div className={`h-80 bg-gradient-to-br ${player.gradient} relative overflow-hidden`}>
+                  <img 
+                    src={player.imageUrl}
+                    alt={`${player.name} - ${player.position}`}
+                    className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90"
+                  />
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="flex items-center justify-between">
