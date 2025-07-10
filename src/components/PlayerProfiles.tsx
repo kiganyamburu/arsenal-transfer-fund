@@ -8,10 +8,11 @@ const players = [
   {
     name: "Rodrigo",
     position: "Striker",
-    age: 23,
-    nationality: "Spain",
-    currentClub: "Manchester City",
+    age: 24,
+    nationality: "Brazil",
+    currentClub: "real Madrid",
     transferValue: "£65M",
+    // imageUrl: "",  // Placeholder for player image URL rodriogo.jpg
     stats: {
       goals: 25,
       assists: 8,
@@ -25,14 +26,15 @@ const players = [
   {
     name: "Eberechi Eze",
     position: "Attacking Midfielder",
-    age: 26,
+    age: 27,
     nationality: "England",
     currentClub: "Crystal Palace",
     transferValue: "£55M",
+    // imageUrl: "",  // Placeholder for player image URL eze.jpg
     stats: {
-      goals: 18,
-      assists: 12,
-      appearances: 35
+      goals: 34,
+      assists: 23,
+      appearances: 146
     },
     strengths: ["Creativity", "Set Pieces", "Dribbling", "Vision"],
     description: "A creative genius who can unlock any defense. Eze's ability to create magic from nothing would add the X-factor we've been missing.",
@@ -46,6 +48,7 @@ const players = [
     nationality: "Sweden",
     currentClub: "Sporting CP",
     transferValue: "£60M",
+    // imageUrl: "",  // Placeholder for player image URL Viktor Gyökeres.jpg
     stats: {
       goals: 29,
       assists: 7,
