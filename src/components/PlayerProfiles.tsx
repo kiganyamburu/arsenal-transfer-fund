@@ -10,7 +10,7 @@ const players = [
     position: "Striker",
     age: 24,
     nationality: "Brazil",
-    currentClub: "real Madrid",
+    currentClub: "Real Madrid",
     transferValue: "£65M",
     imageUrl: "images/Rodrygo.jpeg",
     stats: {
