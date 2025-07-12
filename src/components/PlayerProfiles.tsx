@@ -44,7 +44,7 @@ const players = [
   {
     name: "Viktor Gyökeres",
     position: "Forward",
-    age: 26,
+    age: 27,
     nationality: "Sweden",
     currentClub: "Sporting CP",
     transferValue: "£60M",
@@ -122,6 +122,8 @@ const PlayerProfiles = () => {
                   <div>
                     <p className="text-sm text-gray-500">Nationality</p>
                     <p className="font-semibold">{player.nationality}</p>
+                    <p className="text-sm text-gray-500">currentClub</p>
+                    <p className="font-semibold">{player.currentClub}</p>
                   </div>
                 </div>
 
