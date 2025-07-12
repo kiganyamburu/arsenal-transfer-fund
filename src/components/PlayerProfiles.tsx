@@ -12,7 +12,7 @@ const players = [
     nationality: "Brazil",
     currentClub: "real Madrid",
     transferValue: "£65M",
-    imageUrl: "Rodrigo.jpeg",
+    imageUrl: "images/Rodrygo.jpeg",
     stats: {
       goals: 25,
       assists: 8,
@@ -30,7 +30,7 @@ const players = [
     nationality: "England",
     currentClub: "Crystal Palace",
     transferValue: "£55M",
-    imageUrl: "/images/rodrigo.jpg",
+    imageUrl: "images/Eze.jpeg",
     stats: {
       goals: 34,
       assists: 23,
@@ -48,7 +48,7 @@ const players = [
     nationality: "Sweden",
     currentClub: "Sporting CP",
     transferValue: "£60M",
-    imageUrl: "/images/gyokeres.jpg",
+    imageUrl: "images/Gyokeres.jpeg",
     stats: {
       goals: 29,
       assists: 7,
@@ -122,7 +122,7 @@ const PlayerProfiles = () => {
                   <div>
                     <p className="text-sm text-gray-500">Nationality</p>
                     <p className="font-semibold">{player.nationality}</p>
-                    <p className="text-sm text-gray-500">currentClub</p>
+                    <p className="text-sm text-gray-500">Current club</p>
                     <p className="font-semibold">{player.currentClub}</p>
                   </div>
                 </div>
