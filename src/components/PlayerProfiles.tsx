@@ -12,6 +12,7 @@ const players = [
     nationality: "Brazil",
     currentClub: "real Madrid",
     transferValue: "£65M",
+    imageUrl: "Rodrigo.jpeg",
     stats: {
       goals: 25,
       assists: 8,
@@ -29,6 +30,7 @@ const players = [
     nationality: "England",
     currentClub: "Crystal Palace",
     transferValue: "£55M",
+    imageUrl: "/images/rodrigo.jpg",
     stats: {
       goals: 34,
       assists: 23,
@@ -46,6 +48,7 @@ const players = [
     nationality: "Sweden",
     currentClub: "Sporting CP",
     transferValue: "£60M",
+    imageUrl: "/images/gyokeres.jpg",
     stats: {
       goals: 29,
       assists: 7,
